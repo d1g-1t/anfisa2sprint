@@ -1,1 +1,12 @@
-Django==3.2.16
+# This file is deprecated. Please use requirements/ directory instead.
+# 
+# For development:
+#   pip install -r requirements/development.txt
+#
+# For production:
+#   pip install -r requirements/production.txt
+#
+# Or use Docker:
+#   make setup
+
+-r requirements/base.txt

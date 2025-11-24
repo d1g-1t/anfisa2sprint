@@ -1,0 +1,20 @@
+# Core Django
+Django>=4.2,<5.0
+psycopg2-binary>=2.9.9
+django-environ>=0.11.2
+
+# Django REST Framework
+djangorestframework>=3.14.0
+django-filter>=23.5
+drf-spectacular>=0.27.0
+
+# Database & Caching
+redis>=5.0.1
+django-redis>=5.4.0
+
+# Performance
+gunicorn>=21.2.0
+
+# Utilities
+python-slugify>=8.0.1
+Pillow>=10.1.0

@@ -1,0 +1,87 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# CI/CD
+.github
+.pre-commit-config.yaml
+
+# Documentation
+*.md
+docs/
+REFACTORING.md
+CONTRIBUTING.md
+LICENSE
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Database
+*.sqlite3
+db.sqlite3
+*.db
+
+# Media and static (will be collected in container)
+mediafiles/
+staticfiles/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile
+Dockerfile.dev
+docker-compose.yml
+.dockerignore
+
+# Environment
+.env
+.env.*
+
+# Development files
+Makefile
+setup.cfg
+pyproject.toml
+.editorconfig
+.flake8
+
+# Old structure (if exists)
+anfisa_for_friends/
+
+# Backups
+*.bak
+*.backup
+*.sql

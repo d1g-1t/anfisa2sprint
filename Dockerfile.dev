@@ -30,10 +30,6 @@ RUN pip install --upgrade pip setuptools wheel && \
 # Copy project
 COPY . .
 
-# Copy wait script and make executable
-COPY wait-for-db.sh /wait-for-db.sh
-RUN chmod +x /wait-for-db.sh
-
 # Create static and media directories
 RUN mkdir -p /app/staticfiles /app/mediafiles
 
